@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    color: white;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #EEF7FF;
+}
+.container{
+    background-image: linear-gradient(to right,#050C9C,#3ABEF9);
+    
+    width: 350px;
+    height: 600px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+p{
+    font-size: small;
+}
+button{
+    width: 280px;
+    padding: 15px 0px;
+    border-radius: 50px;
+    background-color: white;
+    color: #3ABEF9;
+
+}
+.twitter{
+    background-color: #3ABEF9;
+    color: white;
+    transition: background-color 0.15s;
+}
+.twitter:hover{
+    background-color: white;
+    color: #3ABEF9;
+}
+.sign-in{
+    padding: 15px 80px;
+    border-radius: 50px;
+    background-color: transparent;
+    border:solid white;
+    border-width: 1px;
+    transition: background-color 0.15s;
+    
+}
+.sign-in:hover{
+    background-color: white;
+    color:#050C9C ;
+}
+.login{
+    margin-top: 0px;
+    transition:background-color 0.15;
+}
+.login:hover{
+    background-color:#3ABEF9 ;
+    color: white;
+}
+
+.subheading{
+    margin-bottom: 80px;
+    font-family: "Playwrite MX", cursive;
+    font-size: smaller;
+}
+h1{
+    margin-top: 100px;
+    font-size: 50px;
+    font-family: "Roboto", sans-serif;
+    
+}
